@@ -1,4 +1,6 @@
-<img src="https://viden.netlify.app/favicon.svg">
+<div align='center'>
+<img wigth='100px' height='100px' src="https://viden.netlify.app/favicon.svg">
+</div>
 
 <h1 align='center'>
 Viden
