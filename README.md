@@ -12,7 +12,7 @@ Vitetem Mini
 
 ## Features
 
-- ⚡️ [Vue 3](https://github.com/vuejs/vue-next), [Vite 2](https://github.com/vitejs/vite), [pnpm](https://pnpm.js.org/), [ESBuild](https://github.com/evanw/esbuild) - born with fastness
+- ⚡️ [Vue 3](https://github.com/vuejs/core), [Vite 2](https://github.com/vitejs/vite), [pnpm](https://pnpm.js.org/), [ESBuild](https://github.com/evanw/esbuild) - born with fastness
 
 - 🗂 [File based routing](./src/pages)
 
@@ -52,6 +52,11 @@ Vitetem Mini
 - [`unplugin-auto-import`](https://github.com/antfu/unplugin-auto-import) - Directly use Vue Composition API and others without importing
 - [`unplugin-vue-components`](https://github.com/antfu/unplugin-vue-components) - components auto import
 - [VueUse](https://github.com/antfu/vueuse) - collection of useful composition APIs
+
+## Also
+
+[Vitetem-Life](https://github.com/elonehoo/vitetem-life)
+[Vitetem-Mini](https://github.com/elonehoo/vitetem-mini)
 
 ## Try it now!
 
