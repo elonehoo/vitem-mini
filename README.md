@@ -61,14 +61,14 @@ Vitetem Mini
 
 ## Try it now!
 
-[Create a repo from this template on GitHub](https://github.com/xiaoxunyao/viden/generate).
+[Create a repo from this template on GitHub](https://github.com/xiaoxunyao/vitetem-mini/generate).
 
 ### Clone to local
 
 If you prefer to do it manually with the cleaner git history
 
 ```bash
-npx degit xiaoxunyao/viden my-viden-app
-cd my-viden-app
+npx degit xiaoxunyao/vitetem-mini my-vitetem-mini-app
+cd my-vitetem-mini-app
 pnpm install # If you don't have pnpm installed, run: npm install -g pnpm
 ```
