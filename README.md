@@ -55,7 +55,7 @@ Vitetem Mini
 
 ## Also
 
-[Vitetem-Life](https://github.com/elonehoo/vitetem-life)
+[Vitetem Life](https://github.com/elonehoo/vitetem-life)
 
 [Vitetem](https://github.com/elonehoo/vitetem)
 
