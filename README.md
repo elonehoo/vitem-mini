@@ -3,7 +3,7 @@
 </div>
 
 <h1 align='center'>
-Viden
+Vitetem Mini
 </h1>
 
 <h6 align='center'>
