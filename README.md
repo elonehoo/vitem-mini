@@ -6,10 +6,6 @@
 Vitetem Mini
 </h1>
 
-<h6 align='center'>
-<a href="https://viden.netlify.app">Live Demo</a>
-</h6>
-
 ## Features
 
 - ⚡️ [Vue 3](https://github.com/vuejs/core), [Vite 2](https://github.com/vitejs/vite), [pnpm](https://pnpm.js.org/), [ESBuild](https://github.com/evanw/esbuild) - born with fastness
