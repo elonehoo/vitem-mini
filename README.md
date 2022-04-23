@@ -3,7 +3,7 @@
 </div>
 
 <h1 align='center'>
-Vitetem Mini
+Vitem Mini
 </h1>
 
 ## Features
@@ -51,9 +51,9 @@ Vitetem Mini
 
 ## Also
 
-[Vitetem](https://github.com/elonehoo/vitetem)
+[Vitem](https://github.com/elonehoo/vitem)
 
-[Vitetem Life](https://github.com/elonehoo/vitetem-life)
+[Vitem Life](https://github.com/elonehoo/vitem-life)
 
 ## Try it now!
 
