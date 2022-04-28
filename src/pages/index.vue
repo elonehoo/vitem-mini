@@ -32,6 +32,7 @@ function go(){
       v-model="name"
       class="px-4 py-2 w-64 text-center bg-transparent outline-none border rounded border-solid border-gray-200 dark:border-gray-700 active:outline-none"
       autoComplete="false"
+      @keydown.enter="go()"
       type="text" 
     />
 
