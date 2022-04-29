@@ -17,7 +17,7 @@ export default defineConfig({
       reactivityTransform: true,
     }),
     Icons({
-      compiler: 'vue3'
+      compiler: 'vue3',
     }),
-  ]
+  ],
 })

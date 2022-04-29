@@ -1,15 +1,14 @@
 <script setup lang="ts">
-import CarbonCarbonForIbmProduct from '~icons/carbon/carbon-for-ibm-product'
 import { useRouter } from 'vue-router'
+import CarbonCarbonForIbmProduct from '~icons/carbon/carbon-for-ibm-product'
 
-const name:string = $ref('')
+const name: string = $ref('')
 
 const router = useRouter()
 
-function go(){
-  if(name.length > 0 ){
+function go() {
+  if (name.length > 0)
     router.push(`/hi/${encodeURIComponent(name)}`)
-  }
 }
 
 </script>
@@ -25,22 +24,21 @@ function go(){
       </em>
     </p>
 
-    <div class="py-4"></div>
+    <div class="py-4" />
 
-    <input 
-      placeholder="What's your name?"
+    <input
       v-model="name"
+      placeholder="What's your name?"
       class="px-4 py-2 w-64 text-center bg-transparent outline-none border rounded border-solid border-gray-200 dark:border-gray-700 active:outline-none"
       autoComplete="false"
+      type="text"
       @keydown.enter="go()"
-      type="text" 
-    />
+    >
 
     <div>
-      <button @click="go()" :disabled="name.length <= 0" class="m-3 text-sm px-4 py-1 rounded inline-block bg-teal-600 text-white cursor-pointer hover:bg-teal-700 disabled:cursor-default disabled:bg-gray-600 disabled:opacity-50">
+      <button :disabled="name.length <= 0" class="m-3 text-sm px-4 py-1 rounded inline-block bg-teal-600 text-white cursor-pointer hover:bg-teal-700 disabled:cursor-default disabled:bg-gray-600 disabled:opacity-50" @click="go()">
         Go
       </button>
     </div>
   </div>
-
 </template>

@@ -7,13 +7,13 @@ const router = createRouter({
   routes: [
     {
       path: '/',
-      component: Home
+      component: Home,
     },
     {
       path: '/hi/:name',
       component: Hi,
-      props: true
-    }
+      props: true,
+    },
   ],
 })
 
