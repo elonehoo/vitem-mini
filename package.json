@@ -3,9 +3,9 @@
   "version": "1.0.0",
   "packageManager": "pnpm@6.32.9",
   "scripts": {
-    "dev": "vite --port 3333 --open --port 8766 --open",
+    "dev": "vite --port 3333 --open",
     "build": "vite build",
-    "preview": "vite preview",
+    "preview": "vite preview --port 8766 --open",
     "test": "vitest",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix"
