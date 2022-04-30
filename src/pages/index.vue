@@ -1,6 +1,5 @@
 <script setup lang="ts">
 import { useRouter } from 'vue-router'
-import CarbonCarbonForIbmProduct from '~icons/carbon/carbon-for-ibm-product'
 
 const name: string = $ref('')
 
@@ -15,7 +14,11 @@ function go() {
 
 <template>
   <div>
-    <CarbonCarbonForIbmProduct class="text-4xl inline-block" />
+    <!-- <span class="iconify" data-icon="carbon:carbon-for-ibm-product" data-inline="false" style="color: #888888"></span> -->
+    <!-- <CarbonCarbonForIbmProduct class="text-4xl inline-block" /> -->
+
+    <div class="text-4xl inline-block i-carbon-carbon-for-ibm-product" />
+
     <p>Vitem Mini</p>
 
     <p>
@@ -36,7 +39,7 @@ function go() {
     >
 
     <div>
-      <button :disabled="name.length <= 0" class="m-3 text-sm px-4 py-1 rounded inline-block bg-teal-600 text-white cursor-pointer hover:bg-teal-700 disabled:cursor-default disabled:bg-gray-600 disabled:opacity-50" @click="go()">
+      <button :disabled="name.length <= 0" class="m-3 text-sm btn" @click="go()">
         Go
       </button>
     </div>

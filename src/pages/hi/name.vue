@@ -1,6 +1,5 @@
 <script setup lang="ts">
 import { useRouter } from 'vue-router'
-import CarbonConstruction from '~icons/carbon/construction'
 
 const props = defineProps<{ name: string }>()
 
@@ -9,7 +8,8 @@ const router = useRouter()
 
 <template>
   <div>
-    <CarbonConstruction class="text-4xl inline-block" />
+    <!-- <CarbonConstruction class="text-4xl inline-block" /> -->
+    <div class="text-4xl inline-block i-carbon-construction" />
 
     <p>Hi, {{ props.name }}</p>
 
@@ -19,7 +19,7 @@ const router = useRouter()
 
     <div>
       <button
-        class="text-sm mt-8 m-3 px-4 py-1 rounded inline-block bg-teal-600 text-white cursor-pointer hover:bg-teal-700 disabled:cursor-default disabled:bg-gray-600 disabled:opacity-50"
+        class="text-sm mt-8 m-3 btn"
         @click="router.back()"
       >
         Back

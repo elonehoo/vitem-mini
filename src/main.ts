@@ -1,6 +1,8 @@
 import { createApp } from 'vue'
 import App from '~/App.vue'
-import '~/style/index.css'
 import router from '~/router'
+
+import '@unocss/reset/tailwind.css'
+import 'uno.css'
 
 createApp(App).use(router).mount('#app')
