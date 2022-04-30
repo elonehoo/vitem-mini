@@ -10,7 +10,7 @@
 
 - 🗂 The official router for Vue
 
-- 🎨 [tailwindcss](https://github.com/tailwindlabs/tailwindcss) - A utility-first CSS framework for rapid UI development
+- 🎨 [UnoCSS](https://github.com/unocss/unocss) - The instant on-demand atomic CSS engine.
 
 - 😃 [unplugin-icons](https://github.com/antfu/unplugin-icons) - Access thousands of icons as components on-demand universally.
 
@@ -32,11 +32,13 @@
 
 ### UI Frameworks
 
-- [tailwindcss](https://github.com/tailwindlabs/tailwindcss) - A utility-first CSS framework for rapid UI development
+- [UnoCSS](https://github.com/unocss/unocss) - The instant on-demand atomic CSS engine.
 
 ### Icons
 
-- [unplugin-icons](https://github.com/antfu/unplugin-icons) - Access thousands of icons as components on-demand universally
+- [Iconify](https://iconify.design/) - use icons from any icon sets 🔍[Icônes](https://icones.js.org)
+
+- [@unocss/preset-icons](https://github.com/unocss/unocss/tree/main/packages/preset-icons) - Use any icons with Pure CSS for UnoCSS.
 
 ## Try it now!
 
