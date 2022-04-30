@@ -1,8 +1,10 @@
 <script setup lang="ts">
-let isDark: boolean = $ref(false)
 
 function toggleDark() {
-  isDark = document.documentElement.classList.toggle('dark')
+  const isDark = document.documentElement.classList.toggle('dark')
+
+  localStorage.setItem('color-schema', isDark ? 'dark' : 'light')
+
 }
 
 </script>
