@@ -12,7 +12,7 @@
 
 - 🎨 [UnoCSS](https://github.com/unocss/unocss) - The instant on-demand atomic CSS engine.
 
-- 😃 [unplugin-icons](https://github.com/antfu/unplugin-icons) - Access thousands of icons as components on-demand universally.
+- 😃 [@unocss/preset-icons](https://github.com/unocss/unocss/tree/main/packages/preset-icons) - Use any icons with Pure CSS for UnoCSS.
 
 - 🔥 Use the Use the [new `<script setup>` style](https://github.com/vuejs/rfcs/pull/227)
 
