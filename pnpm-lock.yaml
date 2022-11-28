@@ -2,7 +2,7 @@ lockfileVersion: 5.3
 
 specifiers:
   '@elonehoo/eslint-config': 2.0.0
-  '@iconify-json/carbon': 1.1.10
+  '@iconify-json/carbon': 1.1.11
   '@types/node': 17.0.45
   '@unocss/reset': 0.46.5
   '@vitejs/plugin-vue': 2.3.4
@@ -13,7 +13,7 @@ specifiers:
   typescript: 4.9.3
   unocss: 0.46.5
   vite: 2.9.15
-  vitest: 0.25.2
+  vitest: 0.25.3
   vue: 3.2.45
   vue-router: 4.1.6
   vue-tsc: 0.40.13
@@ -24,7 +24,7 @@ dependencies:
 
 devDependencies:
   '@elonehoo/eslint-config': 2.0.0_eslint@8.28.0+typescript@4.9.3
-  '@iconify-json/carbon': 1.1.10
+  '@iconify-json/carbon': 1.1.11
   '@types/node': 17.0.45
   '@unocss/reset': 0.46.5
   '@vitejs/plugin-vue': 2.3.4_vite@2.9.15+vue@3.2.45
@@ -35,7 +35,7 @@ devDependencies:
   typescript: 4.9.3
   unocss: 0.46.5_vite@2.9.15
   vite: 2.9.15
-  vitest: 0.25.2
+  vitest: 0.25.3
   vue-tsc: 0.40.13_typescript@4.9.3
 
 packages:
@@ -266,8 +266,8 @@ packages:
     resolution: {integrity: sha512-ZnQMnLV4e7hDlUvw8H+U8ASL02SS2Gn6+9Ac3wGGLIe7+je2AeAOxPY+izIPJDfFDb7eDjev0Us8MO1iFRN8hA==}
     dev: true
 
-  /@iconify-json/carbon/1.1.10:
-    resolution: {integrity: sha512-k3/28wk+2CklUPdKBXWhPHQxquvLGiPYk1s6UWdQYR3YtneHRMuCp+0zc9yNjHYBzoSylMIECO0UPH+SdccguA==}
+  /@iconify-json/carbon/1.1.11:
+    resolution: {integrity: sha512-IHkHSNmTM6q6b8DuKSzd+AEMYPZywSxcb+37kZU7ywtcwsGen3aVEvWFykopIWjjwj3xdZ/5UdwJRqhZDQMlNg==}
     dependencies:
       '@iconify/types': 2.0.0
     dev: true
@@ -3652,8 +3652,8 @@ packages:
       fsevents: 2.3.2
     dev: true
 
-  /vitest/0.25.2:
-    resolution: {integrity: sha512-qqkzfzglEFbQY7IGkgSJkdOhoqHjwAao/OrphnHboeYHC5JzsVFoLCaB2lnAy8krhj7sbrFTVRApzpkTOeuDWQ==}
+  /vitest/0.25.3:
+    resolution: {integrity: sha512-/UzHfXIKsELZhL7OaM2xFlRF8HRZgAHtPctacvNK8H4vOcbJJAMEgbWNGSAK7Y9b1NBe5SeM7VTuz2RsTHFJJA==}
     engines: {node: '>=v14.16.0'}
     hasBin: true
     peerDependencies:
